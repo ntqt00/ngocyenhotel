@@ -10,7 +10,7 @@
 
     /*========== LOADING PAGE ==========*/
     $(window).on('load', function () {
-        $("#loading").fadeOut(500);
+        $("#loading").fadeOut(200);
     });
 
     
@@ -143,7 +143,7 @@
                     revapi429 = tpj("#hero").show().revolution({
                         sliderType: "hero",
                         dottedOverlay: "none",
-                        delay: 9000,
+                        delay: 3000,
                         responsiveLevels: [1200, 992, 768, 480],
                         visibilityLevels: [1200, 992, 768, 480],
                         gridwidth: [1200, 992, 768, 480],
@@ -187,7 +187,7 @@
                         jsFileLocation: "js/",
                         sliderLayout: "auto",
                         dottedOverlay: "none",
-                        delay: 9000,
+                        delay: 4000,
                         navigation: {
                             keyboardNavigation: "on",
                             keyboard_direction: "horizontal",
